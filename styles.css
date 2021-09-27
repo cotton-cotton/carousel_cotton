@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+body{
+  font-family: 'Cute Font', cursive;
+  background-color: blanchedalmond;
+}
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 130px;
+}
+.box {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 600px;
+ height: 600px;
+ box-shadow: 0 0 15px 10px #4b4a4a;
+ border-radius: 20px;
+}
+.box h1 {
+  font-size: 40px;
+}
+.box h2 {
+  font-size: 30px;
+}
+.box button {
+  background-color: transparent;
+  border: none;
+  margin-top: 20px;
+  font-size: 30px;
+  color: teal;
+  font-family: 'Cute Font', cursive;
+}
+.box button:hover{
+  cursor: pointer;
+  font-family: 'Cute Font', cursive;
+  text-shadow: 4px 2px 2px gray;
+}
+.container img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.carousel h1 {
+  margin: 30px 0 -100px 0;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+.container button {
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;;
+}
+.container button i {
+  color: rgb(103, 102, 102);
+}
+.btn-left {
+  margin-right: 50px;
+}
+.btn-right {
+  margin-left: 50px;
+}
+.slide-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+.slide-bar span {
+  width: 30px;
+  height: 5px;
+  border: solid 2px rgb(182, 181, 181);
+  margin: 0 3px 0 5px;
+  border-radius: 2px;
+}
+.hidden {
+  display: none;
+}
+/** @format */
+
+#no-mobile {
+	position: absolute;
+	z-index: 99;
+	height: 100vh;
+	background-color: cornflowerblue;
+	color: wheat;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	top: 0;
+}
+@media screen and (max-width: 650px) {
+	#no-mobile {
+		display: none;
+	}
+}

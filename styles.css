@@ -93,6 +93,12 @@ body{
 .hidden {
   display: none;
 }
+.gray {
+  background-color: gray;
+}
+.transparent {
+  background-color: transparent;
+}
 /** @format */
 
 #no-mobile {
